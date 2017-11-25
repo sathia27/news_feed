@@ -1,28 +1,8 @@
-== README
+==Points to Noted:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Created Presenters inside app/presenters for JSON presentation layer. We can add seperate presenters for Email if requirement is diffrent.
+I could have used ActiveModel Serializer instead of me creating Presenters, Tried to avoid gems and rails features.
 
-Things you may want to cover:
+2. Rails app is ready to execute. Run rails server after downloading. Endpoint: http://localhost:3000/news_feed
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+3. Covered basic controller testing
