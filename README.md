@@ -4,4 +4,7 @@
 
 2. Rails app is ready to execute. Please run rails server after downloading. Endpoint: http://localhost:3000/news_feed
 
-3. Covered basic controller testing
+3. Covered basic controller testing.
+
+4. Upload the data
+    rake db:seed
