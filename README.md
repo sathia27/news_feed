@@ -6,5 +6,4 @@
 
 3. Covered basic controller testing.
 
-4. Upload the data
-    rake db:seed
+4. Upload the data - rake db:seed
