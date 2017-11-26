@@ -1,4 +1,4 @@
-# Points to Noted:
+# News Feed App
 
 1. Created Presenters inside app/presenters for JSON presentation layer. We can add seperate presenters for Email if requirement is diffrent. I could have used ActiveModel Serializer instead of me creating Presenters, Tried to avoid gems and rails features.
 
